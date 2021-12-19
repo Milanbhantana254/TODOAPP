@@ -11,6 +11,7 @@
     tools:context=".activity.MainActivity">
 
     <FrameLayout
+        android:background="#ff1a8c"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -22,19 +23,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hello Milan Bhantana"
+                android:text="Hello, Milan Bhantana"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/colorAccent"
                 android:textSize="18sp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                fontPath="fonts/nunito_extra_bold.ttf"
+                android:layout_width="259dp"
                 android:layout_height="wrap_content"
                 android:text="My routine"
-                fontPath="fonts/nunito_extra_bold.ttf"
-                android:textStyle="bold"
                 android:textColor="@color/colorAccent"
                 android:textSize="28sp"
+                android:textStyle="bold"
                 tools:ignore="MissingPrefix" />
 
         </LinearLayout>
@@ -49,6 +50,8 @@
     </FrameLayout>
 
     <LinearLayout
+
+        android:background=""
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
@@ -66,6 +69,7 @@
                 android:layout_gravity="center"/>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:background="#52ff52"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/taskRecycler"/>
@@ -73,6 +77,7 @@
         </FrameLayout>
 
         <TextView
+            android:background="#ffc252"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:text="Add Task"
