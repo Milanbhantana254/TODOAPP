@@ -1,5 +1,4 @@
-# Todo-List
-
+# Todo-APP
 I was recently fortunate to be able to participate in an intensive product design course which was generously offered by our Teacher. Through the course, I received extensive feedback from my module teacher, and I have applied that feedback to this implementation of of todo app.
 Todo apps are widely used, but different users use the apps differently depending on their particular needs. In order to identify the problems faced by users of todo apps, firstly I conducted research then starting develop an understanding of the market and users needs.
 

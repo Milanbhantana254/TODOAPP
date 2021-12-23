@@ -63,7 +63,7 @@
             android:background="@android:color/black"/>
 
         <LinearLayout
-            android:background="#919191"
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="0.2"
@@ -79,7 +79,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Full house"
+                tools:text="TODO App"
                 android:singleLine="true"
                 android:textSize="20sp"
                 android:layout_weight="1"
@@ -97,7 +97,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Full House is the Grand prize in any Tambola game played. It means all 15 Numbers of a ticket are cut, striked out"
+                tools:text="A to-do list app lets you do all that much more efficiently, dragging and dropping tasks to reorder them, changing a priority or due date with one click, attaching a note to a task with additional thoughts. In many ways, a good to-do app is the ultimate productivity app."
                 android:singleLine="true"
                 android:alpha="0.5"
                 android:id="@+id/description"
@@ -115,18 +115,18 @@
                 android:textColor="@android:color/black"/>
 
             <TextView
+                android:id="@+id/status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/black"
-                android:text="COMPLETED"
-                android:textSize="12sp"
-                android:id="@+id/status"
                 android:layout_gravity="right"
                 android:layout_marginTop="10dp"
                 android:paddingLeft="10dp"
-                android:paddingRight="10dp"
                 android:paddingTop="5dp"
-                android:paddingBottom="5dp" />
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="COMPLETED"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
 
         </LinearLayout>
 
