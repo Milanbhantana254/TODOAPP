@@ -11,7 +11,7 @@
     tools:context=".activity.MainActivity">
 
     <FrameLayout
-        android:background="#ff1a8c"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -25,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:text="Hello, Milan Bhantana"
                 android:layout_marginTop="20dp"
+                android:background="#ffff"
                 android:textColor="@color/colorAccent"
                 android:textSize="18sp"/>
 
@@ -33,6 +34,7 @@
                 android:layout_width="259dp"
                 android:layout_height="wrap_content"
                 android:text="My routine"
+                android:background="#ffff"
                 android:textColor="@color/colorAccent"
                 android:textSize="28sp"
                 android:textStyle="bold"
@@ -60,21 +62,17 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="300dp"
-                android:id="@+id/noDataImage"
-                android:layout_gravity="center"/>
+
 
             <androidx.recyclerview.widget.RecyclerView
-                android:background="#52ff52"
+
+                android:id="@+id/taskRecycler"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/taskRecycler"/>
+                android:layout_height="match_parent" />
 
         </FrameLayout>
 
-        <TextView
+        <Button
             android:background="#ffc252"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
