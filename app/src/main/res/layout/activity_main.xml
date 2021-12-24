@@ -33,7 +33,7 @@
                 fontPath="fonts/nunito_extra_bold.ttf"
                 android:layout_width="259dp"
                 android:layout_height="wrap_content"
-                android:text="My routine"
+                android:text="TASK SCHEDULE"
                 android:background="#ffff"
                 android:textColor="@color/colorAccent"
                 android:textSize="28sp"
@@ -69,7 +69,6 @@
                 android:layout_gravity="center"/>
 
             <androidx.recyclerview.widget.RecyclerView
-
                 android:id="@+id/taskRecycler"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
